@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>universitas of blue navy </title>
+</head>
+<body>
+
+
+    <!--Bagian Atas-->
+    <table bgcolor="lightblue" width="100%">
+        <tr>
+            <td>
+            <header>
+                <h1> <front collor="blue">Universitas of blue navy</front></h1>
+                <p><b><front color="orange">melahirkan generasi pembisnis sukses, dan bijaksana</front></b></p>
+            </header>
+        </tr>
+    </td>
+    </table>
+    <!--Menu Navigasi-->
+    <nav>
+        <table border="1" cellspacing="0" cellpadding"8">
+            <tr align="center">
+                <td><a href="#profil"><b>Profil</b></a></td>
+                <td><a href="#fakultasprodi"><b>Fakultas & Prodi</b></a></td>
+                <tb><a href="#pendaftaran"><b>Pendaftaran</b></a></tb>
+                <td><a href="#konsultasi.html"><b>Konsultasi</b></a></td>
+                <td><a href="#berita.html"><b>Berita</b></a></td>
+            </tr>
+        </table>
+    </nav>
+    <hr>
+
+    <!--Konten Utama-->
+    <main>
+        <!--Bagian Profil-->
+        <section id="profil">
+            <h2>profil  oxford</h2>
+            <p align="justify">
+                 Oxford adalah sebuah kota dan distrik non-metropolitan di Oxfordshire, Inggris.
+            </p>
+            <p align="justify">
+                 Menurut sensus tahun 2001, penduduknya berjumlah 134.248 jiwa. Luas Oxford adalah 45,59 km².
+            </p>
+            <p align="justify">
+                 Di Oxford terdapat Universitas Oxford, yang merupakan universitas tertua di kawasan-kawasan berbahasa
+                 Inggris.
+            </p>
+            <p align="justify">
+                 Kota ini terletak sekitar 90 km dari London dan dialiri Sungai Thames. Ditetapkan secara resmi
+                 sebagai kota pada tahun 1542, Oxford pertama kali dimukimi pada masa Anglo-Saxon dan awalnya dikenal dengan
+                 nama "Oxenaforda". Catatan sejarah pertama yang menyebut kota ini adalah Anglo-Saxon Chronicle yang
+                  terbit tahun 912. Nama Universitas Oxford sendiri pertama kali disebut pada abad ke-12.
+            </p>
+            <p align="justify">
+                Oxford tidak memiliki kampus utama, dan gedung serta fasilitasnya tersebar di seluruh pusat kota.
+                Pengajaran sarjana di Oxford terdiri dari ceramah, sistem tutorial di kolese dan asrama, seminar, 
+                praktik laboratorium dan kadang-kadang tutorial lebih lanjut yang disediakan oleh fakultas dan departemen
+                universitas pusat. Pengajaran pascasarjana secara eksklusif diberikan secara dominan oleh universitas pusat.
+            </p>
+        </section>
+    </main>
+    <main>
+        
+        <!--Bagian Fakultas & Prodi-->
+        <section id="fakultasprodi">
+            <h2>fakultas dan prodi</h2>
+            <p align="justify">
+                Universitas Oxford menawarkan berbagai jurusan di bawah empat divisi utama: 
+                </p>
+                <p align="justify">
+                Humaniora, Ilmu Medis, Matematika, Fisika & Ilmu Alam, dan Ilmu Sosial. Jurusan populer meliputi Filsafat, Bahasa dan
+                Sastra Inggris, Ekonomi dan Manajemen, Kedokteran, Ilmu Komputer, serta Sejarah.
+                </p>
+                <p align="justify"></p>
+                Setiap perguruan tinggi di dalam universitas ini menawarkan sebagian besar mata kuliah,
+                memungkinkan mahasiswa untuk memilih sesuai minat mereka. 
+            </p>
+
+            <table border="1px">
+                <tr><th>No</th><th>Nama Program Studi</th><th>jenjang</th><th>Titel</th></tr>
+                <tr><th>1</th><th>Manajemen</th><th>S1/S2</th><th>S.M</th></tr>
+                <tr><th>2</th><th>ilmu komputer</th><th>S1/S2</th><th>S.Kom</th></tr>
+                <tr><th>3</th><th>kedokteran</th><th>S1/S2</th><th>S.Ked</th></tr>
+            </table>
+            <h3>Mata Kuliah Umum</h3>
+            <ul>
+                <li>pemograman web</li>
+                <li>Kriptografi</li>
+                <li>Data Sience</li>
+                <li>komputer bisnis</li>
+            </ul>
+        </section>
+    </main>
+    <main>
+        <!--Bagian Pendaftaran-->
+        <section>
+            <h2>Calon Mahasiswa</h2>
+            
+        <section id="pendaftaran">
+            <h3>Pendaftaran Mahasiswa</h3> 
+             <form>
+                <h3>Isilah Formulir dibawah ini dengan benar</h3>
+                 1. Nama &ensp;: &ensp;<input type="text" name="tnama"><br>
+                 2. Tempat Lahir &ensp;: &ensp;<input type="text" name="ttempatlahir"><br>
+                 3. Tanggal Lahir &ensp;: &ensp;<input type="date" name="ttgllahir"><br>
+                 4. Alamat&ensp;: <br>
+                 <textarea name="talamat" rows="4" cols="50"></textarea><br>
+                 5. Email&ensp;:&ensp; <input type="email" name="temail"><br>
+                 6. Kota/Kabupaten&ensp;:&ensp;
+                 <select name='kota_kabupaten'>
+                     <option value='1'>Kota Semarang</option>
+                     <option value='2'>Kapupaten Semarang</option>
+                     <option value='3'>Kapupaten Demak</option>
+                     <option value='2'>Kapupaten Kendal</option>
+                     <option value='2'>Kapupaten Pekalongan</option>
+                 </select><br>
+                 7. Propinsi&ensp;:
+                 <select name='propinsi'>
+                     <option value='1'>Jawa Tengah</option>
+                     <option value='2'>Jawa Barat</option>
+                     <option value='3'>Jawa Timur</option>
+                     <option value='4'>Papua</option>
+                 </select>
+                 <br>
+                 8. Unggah Halaman depan Ijazah terakhir : <input type="file">
+                 <br>
+                 <h4>Totorial Pendaftaran Mahasiswa Baru</h4> 
+                 <video width='320' height='240' controls> <source src='/video/video1_php.mp4' 
+                     type='video/mp4'>Browser Anda tidak mendukung elemen video.
+                 </video>
+                 <br>
+                 <br>
+                 <audio controls>
+                     <source src='/video/PHP 2022-05-21 21-33-29-914.mp4.wav' type='audio/mpeg'>Browser Anda tidak mendukung elemen audio.
+                 </audio>
+                 <br>
+                 <input type="submit" value="Kirim">    
+                 <br>
+             </form>    
+                 <br><a href="#top">Kembali ke Atas</a>
+         </section>    
+         <br>
+    </main>
+    <main>
+
+        <!--Bagian Konsultasi-->
+        <section id="konsultasi.html">
+            <h2>konsultasi</h2>
+            <p align="justify">
+                <p>Silakan Isi Form Dibawah Untuk Konsultasi:</p>
+                <form>
+                    Nama: <input type="text" name="nama"><br>
+                    Email: <input type="email" name="email"><br>
+                    Pesan: <br>
+                    <textarea name="pesan" rows="5" cols="40"></textarea><br>
+                    <input type="submit" value="Kirim">
+                </form>
+                <br>
+                <a href="konsultasi.html">Kembali Ke Beranda</a>
+            </p>
+        </section>
+    </main>
+    <main>
+
+        <!--exiting code-->
+        <section id="berita.html">
+            <h2>berita</h2>
+            <p align="justify">
+                <img src=""" alt="Berita Kampus" width="300">
+                <!--Logo Kampus 'logo kampus'-->
+                <p>
+                    berita terbaru seputar Universitas of Blue Navy.
+                </p>
+                <br>
+                <!--exiting code-->
+            </p>
+            <table border="1px">
+                <tr><th>No</th><th>Nama</th><th>Program Studi</th><th>Foto</th></tr>
+                <tr><th>1</th><th>nana</th><th>manajemen</th><th><img scr=""alt="logo kampus" width=100></th></tr>
+                <tr><th>2</th><th>pleuncit</th><th>kedokteran</th><th><img scr=""alt="logo kampus" width=100></th></tr>
+                <tr><th>3</th><th>saron</th><th>ilmu komputer</th><th><img scr=""alt="logo kampus" width=100></th></tr>
+            </table>
+        </section>
+        <!--...existing code-->
+    </main>
+</body>
+</html>
